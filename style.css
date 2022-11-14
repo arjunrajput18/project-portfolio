@@ -25,6 +25,7 @@ body{
 .container-center{
     max-width:600px;
     margin:auto;
+     
 }
 
 .link{
@@ -112,6 +113,9 @@ text-align:right;
 
 }
 
+#txt-center{
+    text-align :center
+}
 
 .ow {
     background-color: var(--off-white);
