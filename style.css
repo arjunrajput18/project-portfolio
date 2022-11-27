@@ -100,10 +100,8 @@ text-align:right;
 
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color);
+    
 }
-
-
-
 .section{
     padding: 2rem;
 }
@@ -143,3 +141,4 @@ text-align:right;
     padding-inline-start: 0px;
 
 }
+
