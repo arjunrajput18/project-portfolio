@@ -24,10 +24,13 @@
     
         </ul>
     </nav>
-    
+    <header class="hero">
+      <img class="hero-img" src="/images/thingstosay.svg" />
+  
+    </header>
     <section class="section ow" id="txt-center">
         <div class="container container-center" id="txt-center">
-    <img src="/images/thingstosay.svg"  style="height:40vh;width:100vh;"/>
+   
     <h1>ExpressJs dummy</h1>
     <small>15th November 2022</small>
     <hr>
@@ -35,7 +38,24 @@
     <p>It is designed for building single ,multipage and hybrid web application . It is perfect framework for ultra fast input/output.</p>
     <p>It is cross platform . it support mvc(model view control) and middleware. It supports multiple template like EJS ,Handlebars,pug.It supports both Nosql & RDBMS database</p>
     <p>It has high Performance . It prepare a thin layer therefore, the performance is high .It supports Routing table in order to perform diiferent HTPP  operation. </p>
-</section>
+     <h4>Hello world program in express js</h4>  
+     <pre>
+     <code>
+      <span class="color-code">const</span> express-js = <span style="color:rgb(196, 82, 101) ;">require("express");</span>
+      <span class="color-code">const</span> app = <span style="color:rgb(196, 82, 101) ;">express();</span>
+      <span class="color-code">const</span> port = <span style="color:rgb(196, 82, 101) ;">3000;</span>
+
+      app.<span style="color:rgb(196, 82, 101) ;">get</span>("/",<span class="color-code">function</span> (req, res) {
+      res.<span style="color:rgb(196, 82, 101) ;">send</span>("Hello World!");
+      });
+
+      app.<span style="color:rgb(196, 82, 101) ;">listen</span>(port, <span class="color-code">function()</span> {
+      console.log(`<span class="color-code">Example app listening on port </span>${port}!`);
+      });
+     </code>
+   </pre>
+
+  </section>
 <footer class="footer">
     <div class="footer-header">Social media presence</div>
     <ul class="social-links list-non-bullet">

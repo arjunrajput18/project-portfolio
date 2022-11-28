@@ -60,8 +60,10 @@ padding:0rem 0.5rem;
     color: white;
     padding:1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 .navigation .nav-brand{
+
     font-size: medium;
     font-weight: bold;
 }
@@ -87,7 +89,8 @@ text-align:right;
 }
 
 .hero .hero-img{
-    max-width:350px;
+    max-width:80%;
+    width: 350px;
     margin:auto;
     display: block;
 }
@@ -126,6 +129,7 @@ text-align:right;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 .footer .footer-header{
     font-size: large;
@@ -142,3 +146,16 @@ text-align:right;
 
 }
 
+
+pre code {
+    
+    background-color: rgb(239, 230, 230);
+    border: 1px solid rgb(198, 186, 186);
+    display: block;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .color-code{
+    color: blue;
+  }
