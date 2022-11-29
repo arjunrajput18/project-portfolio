@@ -148,6 +148,7 @@ text-align:right;
 
 
 pre code {
+    overflow: scroll;
     background-color: rgb(239, 230, 230);
     border: 1px solid rgb(198, 186, 186);
     display: block;
