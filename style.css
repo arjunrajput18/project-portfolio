@@ -148,14 +148,15 @@ text-align:right;
 
 
 pre code {
-    
     background-color: rgb(239, 230, 230);
     border: 1px solid rgb(198, 186, 186);
     display: block;
     padding: 0px;
-    text-align: left;
+    text-align :left;
+    word-wrap: break-word;
   }
 
   .color-code{
     color: blue;
   }
+  
