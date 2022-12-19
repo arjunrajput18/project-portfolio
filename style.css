@@ -55,6 +55,7 @@ padding:0rem 0.5rem;
 }
 
 
+
 .navigation{
     background-color :var(--primary-color);
     color: white;
@@ -85,7 +86,6 @@ text-align:right;
 
 .hero{
     padding: 2rem;
-    padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -105,6 +105,21 @@ text-align:right;
     color:var(--primary-color);
     
 }
+.image--cover {
+    /* text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto; */
+    height: 300px;
+    max-width:80%;
+    border-radius: 80%;
+    width: 300px;
+    margin:auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }
 .section{
     padding: 2rem;
 }
